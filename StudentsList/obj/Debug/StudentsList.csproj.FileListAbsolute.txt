@@ -1,0 +1,7 @@
+C:\Users\User\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects\StudentsList\bin\Debug\StudentsList.exe.config
+C:\Users\User\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects\StudentsList\bin\Debug\StudentsList.exe
+C:\Users\User\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects\StudentsList\bin\Debug\StudentsList.pdb
+C:\Users\User\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects\StudentsList\obj\Debug\StudentsList.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects\StudentsList\obj\Debug\StudentsList.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects\StudentsList\obj\Debug\StudentsList.exe
+C:\Users\User\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects\StudentsList\obj\Debug\StudentsList.pdb
