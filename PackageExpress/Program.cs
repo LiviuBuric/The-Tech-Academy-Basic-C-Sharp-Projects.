@@ -6,71 +6,53 @@ namespace PackageExpress
     {
         static void Main(string[] args)
         {
-            // Display the welcome message
+            // Starting with the welcome message and instructions
             Console.WriteLine("Welcome to Package Express. Please follow the instructions below.");
 
-            double weight;
-            double width;
-            double height;
-            double length;
+            // Get the package weight from the user
+            Console.Write("Please enter the package weight: ");
+            decimal packageWeight = Convert.ToDecimal(Console.ReadLine());
 
-        StartOver:
-
-            // Prompt the user for the package weight
-            Console.Write("Please enter the package weight (in pounds): ");
-
-            // Validate weight input (loop until valid numeric value is entered)
-            while (!double.TryParse(Console.ReadLine(), out weight))
+            // Check if the package weight is greater than 50
+            if (packageWeight > 50)
             {
-                Console.WriteLine("Invalid input. Please enter a numeric value for weight.");
-            }
-
-            // Check if the package is too heavy to be shipped
-            if (weight > 50)
-            {
-                // Display the error message and end the program
                 Console.WriteLine("Package too heavy to be shipped via Package Express. Have a good day.");
-                return;
+                Console.ReadLine(); // Pause the program
+                return; // Exit the method
             }
 
-            // Prompt the user for the package dimensions
-            Console.Write("Please enter the package width (in inches): ");
+            // Get the package width from the user
+            Console.Write("Please enter the package width: ");
+            decimal packageWidth = Convert.ToDecimal(Console.ReadLine());
 
-            // Validate width input (similar loop as for weight)
-            while (!double.TryParse(Console.ReadLine(), out width))
+            // Get the package height from the user
+            Console.Write("Please enter the package height: ");
+            decimal packageHeight = Convert.ToDecimal(Console.ReadLine());
+
+            // Get the package length from the user
+            Console.Write("Please enter the package length: ");
+            decimal packageLength = Convert.ToDecimal(Console.ReadLine());
+
+            // Calculate the total dimensions
+            decimal totalDimensions = packageWidth * packageHeight * packageLength;
+
+            // Check if the total dimensions are greater than 50
+            if (totalDimensions > 100000)
             {
-                Console.WriteLine("Invalid input. Please enter a numeric value for width.");
-            }
-
-            Console.Write("Please enter the package height (in inches): ");
-            while (!double.TryParse(Console.ReadLine(), out height))
-            {
-                Console.WriteLine("Invalid input. Please enter a numeric value for height.");
-            }
-
-            Console.Write("Please enter the package length (in inches): ");
-            while (!double.TryParse(Console.ReadLine(), out length))
-            {
-                Console.WriteLine("Invalid input. Please enter a numeric value for length.");
-            }
-
-            // Calculate the overall dimensions
-            double dimensions = width + height + length;
-
-            // Check if the package is too big to be shipped
-            if (dimensions > 50)
-            {
-                // Display the error message and end the program
                 Console.WriteLine("Package too big to be shipped via Package Express.");
-                return;
+                Console.ReadLine(); // Pause the program
+                return; // Exit the method
             }
 
             // Calculate the shipping quote
-            double quote = (weight * (width * height * length)) / 100;
+            decimal shippingQuote = (packageWeight * totalDimensions) / 100;
 
-            // Display the shipping quote to the user with explanation
-            Console.WriteLine($"Your estimated total for shipping this package is: ${quote:C2} (based on weight and package volume).");
+            // Display the shipping quote to the user
+            Console.WriteLine($"Your estimated total for shipping this package is: ${shippingQuote:F2}");
             Console.WriteLine("Thank you!");
+
+            // Wait for user to press a key before exiting
+            Console.ReadLine();
         }
     }
 }
