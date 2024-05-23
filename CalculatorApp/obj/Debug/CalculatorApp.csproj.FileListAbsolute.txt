@@ -1,0 +1,7 @@
+C:\Users\User\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects\CalculatorApp\obj\Debug\CalculatorApp.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects\CalculatorApp\obj\Debug\CalculatorApp.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects\CalculatorApp\bin\Debug\CalculatorApp.exe.config
+C:\Users\User\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects\CalculatorApp\bin\Debug\CalculatorApp.exe
+C:\Users\User\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects\CalculatorApp\bin\Debug\CalculatorApp.pdb
+C:\Users\User\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects\CalculatorApp\obj\Debug\CalculatorApp.exe
+C:\Users\User\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects\CalculatorApp\obj\Debug\CalculatorApp.pdb

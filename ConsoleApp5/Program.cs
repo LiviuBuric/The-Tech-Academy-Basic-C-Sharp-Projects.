@@ -6,9 +6,9 @@ namespace MungerCode
     {
         static void Main(string[] args)
         {
-            decimal num1 = 19.75488m;
-            int num2 = 6;
-            decimal total = num1 + num2;
+            double num1 = 18.7451242;
+            float num2 = 16.3f;
+            float total = num1 + num2;
             Console.WriteLine(total);
             Console.ReadLine();
         }
