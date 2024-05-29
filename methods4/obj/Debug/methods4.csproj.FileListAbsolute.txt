@@ -1,0 +1,7 @@
+C:\Users\User\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects\methods4\obj\Debug\methods4.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects\methods4\bin\Debug\methods4.exe.config
+C:\Users\User\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects\methods4\bin\Debug\methods4.exe
+C:\Users\User\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects\methods4\bin\Debug\methods4.pdb
+C:\Users\User\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects\methods4\obj\Debug\methods4.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects\methods4\obj\Debug\methods4.exe
+C:\Users\User\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects\methods4\obj\Debug\methods4.pdb
