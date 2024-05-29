@@ -1,0 +1,6 @@
+C:\Users\User\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects\methods5\bin\Debug\methods5.exe.config
+C:\Users\User\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects\methods5\bin\Debug\methods5.exe
+C:\Users\User\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects\methods5\bin\Debug\methods5.pdb
+C:\Users\User\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects\methods5\obj\Debug\methods5.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects\methods5\obj\Debug\methods5.exe
+C:\Users\User\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects\methods5\obj\Debug\methods5.pdb
