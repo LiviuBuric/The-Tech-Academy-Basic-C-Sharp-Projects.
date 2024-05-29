@@ -1,0 +1,7 @@
+C:\Users\User\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects\operators\bin\Debug\operators.exe.config
+C:\Users\User\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects\operators\bin\Debug\operators.exe
+C:\Users\User\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects\operators\bin\Debug\operators.pdb
+C:\Users\User\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects\operators\obj\Debug\operators.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects\operators\obj\Debug\operators.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects\operators\obj\Debug\operators.exe
+C:\Users\User\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects\operators\obj\Debug\operators.pdb
