@@ -1,0 +1,7 @@
+C:\Users\User\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects\dateTime\bin\Debug\dateTime.exe.config
+C:\Users\User\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects\dateTime\bin\Debug\dateTime.exe
+C:\Users\User\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects\dateTime\bin\Debug\dateTime.pdb
+C:\Users\User\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects\dateTime\obj\Debug\dateTime.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects\dateTime\obj\Debug\dateTime.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects\dateTime\obj\Debug\dateTime.exe
+C:\Users\User\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects\dateTime\obj\Debug\dateTime.pdb
