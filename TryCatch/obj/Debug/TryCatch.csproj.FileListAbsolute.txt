@@ -1,0 +1,6 @@
+C:\Users\User\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects\TryCatch\bin\Debug\TryCatch.exe.config
+C:\Users\User\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects\TryCatch\bin\Debug\TryCatch.exe
+C:\Users\User\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects\TryCatch\bin\Debug\TryCatch.pdb
+C:\Users\User\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects\TryCatch\obj\Debug\TryCatch.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects\TryCatch\obj\Debug\TryCatch.exe
+C:\Users\User\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects\TryCatch\obj\Debug\TryCatch.pdb
