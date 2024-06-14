@@ -37,12 +37,11 @@ Namespace Controllers
         End Function
 
         ' POST: Insuree/Create
-        'To protect from overposting attacks, enable the specific properties you want to bind to, for 
-        'more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         <HttpPost()>
         <ValidateAntiForgeryToken()>
         Function Create(<Bind(Include:="Id,FirstName,LastName,EmailAddress,DateOfBirth,CarYear,CarMake,CarModel,DUI,SpeedingTickets,CoverageType,Quote")> ByVal insuree As Insuree) As ActionResult
             If ModelState.IsValid Then
+                insuree.Quote = CalculateQuote(insuree)
                 db.Insurees.Add(insuree)
                 db.SaveChanges()
                 Return RedirectToAction("Index")
@@ -63,12 +62,11 @@ Namespace Controllers
         End Function
 
         ' POST: Insuree/Edit/5
-        'To protect from overposting attacks, enable the specific properties you want to bind to, for 
-        'more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         <HttpPost()>
         <ValidateAntiForgeryToken()>
         Function Edit(<Bind(Include:="Id,FirstName,LastName,EmailAddress,DateOfBirth,CarYear,CarMake,CarModel,DUI,SpeedingTickets,CoverageType,Quote")> ByVal insuree As Insuree) As ActionResult
             If ModelState.IsValid Then
+                insuree.Quote = CalculateQuote(insuree)
                 db.Entry(insuree).State = EntityState.Modified
                 db.SaveChanges()
                 Return RedirectToAction("Index")
@@ -105,5 +103,58 @@ Namespace Controllers
             End If
             MyBase.Dispose(disposing)
         End Sub
+
+        Private Function CalculateQuote(insuree As Insuree) As Decimal
+            Dim baseQuote As Decimal = 50
+
+            ' Age-based adjustments
+            Dim age = DateTime.Now.Year - insuree.DateOfBirth.Year
+            If insuree.DateOfBirth.Date > DateTime.Now.AddYears(-age) Then age -= 1
+
+            If age <= 18 Then
+                baseQuote += 100
+            ElseIf age >= 19 AndAlso age <= 25 Then
+                baseQuote += 50
+            Else
+                baseQuote += 25
+            End If
+
+            ' Car year-based adjustments
+            If insuree.CarYear < 2000 Then
+                baseQuote += 25
+            ElseIf insuree.CarYear > 2015 Then
+                baseQuote += 25
+            End If
+
+            ' Car make and model-based adjustments
+            If insuree.CarMake.ToLower() = "porsche" Then
+                baseQuote += 25
+                If insuree.CarModel.ToLower() = "911 carrera" Then
+                    baseQuote += 25
+                End If
+            End If
+
+            ' Speeding tickets-based adjustments
+            baseQuote += insuree.SpeedingTickets * 10
+
+            ' DUI-based adjustments
+            If insuree.DUI Then
+                baseQuote *= 1.25D
+            End If
+
+            ' Coverage type-based adjustments
+            If insuree.CoverageType Then
+                baseQuote *= 1.5D
+            End If
+
+            Return baseQuote
+
+        End Function
+
+        'Get :        Insuree/AdminView()
+        Function AdminView() As ActionResult
+            Return View()
+        End Function
+
     End Class
 End Namespace

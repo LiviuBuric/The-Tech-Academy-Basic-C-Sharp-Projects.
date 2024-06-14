@@ -158,6 +158,7 @@
     <Compile Include="App_Start\BundleConfig.vb" />
     <Compile Include="App_Start\FilterConfig.vb" />
     <Compile Include="App_Start\RouteConfig.vb" />
+    <Compile Include="Controllers\AdminController.vb" />
     <Compile Include="Controllers\InsureeController.vb" />
     <Compile Include="Global.asax.vb">
       <DependentUpon>Global.asax</DependentUpon>
@@ -257,11 +258,18 @@
     <Content Include="Scripts\jquery-3.4.1.slim.min.js" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
+    <Content Include="Views\Admin\Quotes.html" />
     <Content Include="Views\Insuree\Create.vbhtml" />
     <Content Include="Views\Insuree\Delete.vbhtml" />
     <Content Include="Views\Insuree\Details.vbhtml" />
     <Content Include="Views\Insuree\Edit.vbhtml" />
     <Content Include="Views\Insuree\Index.vbhtml" />
+    <Content Include="Views\Admin\Create.vbhtml" />
+    <Content Include="Views\Admin\Delete.vbhtml" />
+    <Content Include="Views\Admin\Details.vbhtml" />
+    <Content Include="Views\Admin\Edit.vbhtml" />
+    <Content Include="Views\Admin\Index.vbhtml" />
+    <Content Include="Views\Insuree\AdminView.vbhtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="favicon.ico" />
